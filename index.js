@@ -6,7 +6,7 @@ let nivel = "";
 
 if (xp < 1000){
     nivel = "Ferro";
-}else if (xp >= 1001 && <= 2000){
+}else if (xp >= 1001 && <= 2001){
     nivel = "Bronze";
 }else if (xp >= 2001 && <= 5000){
     nivel = "Prata";
@@ -23,5 +23,4 @@ if (xp < 1000){
 }
 //Saída
 
-console.log("O hério de nome "  nomeDoHeroi " está no nível de " nivel)
-
+console.log("O hério de nome " + {nomeDoHeroi} + "está no nível de " + {nivel})
